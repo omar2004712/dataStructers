@@ -26,4 +26,4 @@ function isSubsequence(sub, main) {
   return false;
 }
 
-isSubsequence("hello", "hello world");
+module.exports = isSubsequence;
