@@ -44,3 +44,5 @@ function arrSum(arr, type = "values") {
     throw new Error("Invalid type");
   }
 }
+
+module.exports = arrSum;
