@@ -26,3 +26,5 @@ function findLongestSubstringLen(str) {
   }
   return max;
 }
+
+module.exports = findLongestSubstringLen;
