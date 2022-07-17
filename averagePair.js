@@ -26,9 +26,9 @@ function averagePair(sortedArr, pairAvg) {
 
   while (i !== j) {
     let avg = average(sortedArr[i], sortedArr[j]);
-    if (avg === avgPair) {
+    if (avg === pairAvg) {
       return true;
-    } else if (avg < avgPair) {
+    } else if (avg < pairAvg) {
       i++;
     } else {
       j--;
