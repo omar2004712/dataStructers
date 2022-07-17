@@ -36,7 +36,8 @@ function arrSum(arr, type = "values") {
     }
 
     let sum = 0;
-    for (let i = arr[0]; i <= arr[1]; i++) {
+    for (let i = arr[0]; i < arr[1]; i++) {
+      // was <= to < to exclude the upper bound
       sum += i;
     }
     return sum;
